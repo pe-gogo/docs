@@ -14,8 +14,12 @@ module.exports = {
         nav:[
           {text: '首页' ,link: '/'},
           {text: '思考' ,link: '/think/'},
-          {text: '学习', link: '/study/'},
-          {text: '关于我' ,link: '/about/'},
+          {text: '学习',items: [
+            { text: "离散数学", link:"/study/math/"},
+            { text: "操作系统", link:"/study/os/"},
+            ]},
+          {text: '关于我' ,link: '/about/myRode'},
+          {text: '思想交流', link: '/thinkContact/'},
         ],
 
 
@@ -24,15 +28,19 @@ module.exports = {
 
         sidebar: {
           '/about/': [
-              'myRode'
+              'myRode',
+              'growPath'
           ],
 
-          '/study/': [
-              'SpringBoot',
-              'Dev'
+          '/study/math/': [
+            'coursera'
+          ],
+          '/study/os/':[
+            'os'
           ],
           '/think/': [
-              's'
+              's',
+              'life'
           ]
       },
 

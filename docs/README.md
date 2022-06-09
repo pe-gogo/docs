@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /images/logo.png
-heroText: Study And Think
-tagline: Think And Study is Life
+heroText: null
+tagline: null
 actionText: 先看这里 →
 actionLink: /think/
 features:

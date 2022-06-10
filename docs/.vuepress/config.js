@@ -12,7 +12,7 @@ module.exports = {
     themeConfig: {
 
         nav:[
-          {text: '首页' ,link: '/'},
+          {text: '首页' ,link: '/'},  
           {text: '思考' ,link: '/think/'},
           {text: '学习',items: [
             { text: "离散数学", link:"/study/math/"},
